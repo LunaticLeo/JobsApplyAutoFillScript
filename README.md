@@ -1,0 +1,1 @@
+This is a script running on Tampermonkey browser extension. It will auto fill infomation while applying jobs. This script will not upload your private infomation.  
