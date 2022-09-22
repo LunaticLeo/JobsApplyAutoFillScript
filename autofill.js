@@ -1,3 +1,4 @@
 function autofill() {
-    console.log('autofill function load success')
+    console.log(jq);
+    console.log('autofill local function load success')
 }

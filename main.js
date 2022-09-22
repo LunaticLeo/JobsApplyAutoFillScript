@@ -6,7 +6,13 @@
 // @author       liaoyufu-leo
 // @match        *://*/*
 // @require      https://code.jquery.com/jquery-3.6.1.min.js
+// @require      https://raw.githubusercontent.com/liaoyufu-leo/JobsApplyAutoFillScript/master/autofill.js
+
 // ==/UserScript==
+
+// add requirements to use local file to overide onlie function files when devleoping
+// instruction link
+// @require      file://[local path]\autofill.js
 
 const info = {
     "firstName": "firstName",
@@ -16,7 +22,10 @@ const info = {
     "phoneExtension": "1"
 };
 
+const jq = jQuery.noConflict();
+
 function main() {
+    autofill();
     console.log(info);
 }
 
