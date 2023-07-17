@@ -1,3 +1,4 @@
 function autofill() {
-    console.log('autofill function load success')
+    const jq = jQuery.noConflict();
+    console.log(info);
 }
